@@ -9,5 +9,9 @@
 
 #define CXXSG10_VERSION(major, minor, patch) ((((major * 10000) + minor) * 10000) + patch)
 
+#if defined(__GNUC__)
+#   define CXXSG10_COMPILER_GCC CXXSG10_VERSION(__GNUC__, __GNUC_MINOR__, __GNUC_PATCHLEVEL__)
+#endif
+
 #endif // CXXSG10_detail_config_hpp_
 
