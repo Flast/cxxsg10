@@ -8,6 +8,7 @@
 #define CXXSG10_cxxsg10_hpp_
 
 #include <cxxsg10/detail/config.hpp>
+#include <cxxsg10/detail/compatibility.hpp>
 
 #include <cxxsg10/detail/compiler.hpp>
 #ifdef CXXSG10_compiler_header

@@ -19,6 +19,11 @@
 #   ifndef __cpp_user_defined_literals // n2765
 #      define __cpp_user_defined_literals 200809L
 #   endif
+#   ifndef __cpp_alias_templates // n2258
+#      ifndef CXXSG10_INCOMPATIBLE_WITH_N4030
+#         define __cpp_alias_templates 200704L
+#      endif
+#   endif
 #endif
 
 #if CXXSG10_VERSION(4,6,0) <= CXXSG10_COMPILER_GCC
